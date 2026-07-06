@@ -159,6 +159,46 @@ catalogers:
             evidence:
               - DotnetPackagesLockEntry.ContentHash
   - ecosystem: dotnet # MANUAL
+    name: dotnet-libman-cataloger # AUTO-GENERATED
+    type: generic # AUTO-GENERATED
+    source: # AUTO-GENERATED
+      file: syft/pkg/cataloger/dotnet/cataloger.go
+      function: NewDotnetLibmanCataloger
+    selectors: # AUTO-GENERATED
+      - c#
+      - declared
+      - directory
+      - dotnet
+      - image
+      - language
+      - package
+    parsers: # AUTO-GENERATED structure
+      - function: parseLibmanJSON
+        detector: # AUTO-GENERATED
+          method: glob # AUTO-GENERATED
+          criteria: # AUTO-GENERATED
+            - '**/libman.json'
+        package_types: # AUTO-GENERATED
+          - npm
+        purl_types: # AUTO-GENERATED
+          - npm
+        capabilities: # MANUAL - preserved across regeneration
+          - name: license
+            default: false
+          - name: dependency.depth
+            default:
+              - direct
+          - name: dependency.edges
+            default: ""
+          - name: dependency.kinds
+            default: []
+          - name: package_manager.files.listing
+            default: false
+          - name: package_manager.files.digests
+            default: false
+          - name: package_manager.package_integrity_hash
+            default: false
+  - ecosystem: dotnet # MANUAL
     name: dotnet-portable-executable-cataloger # AUTO-GENERATED
     type: custom # AUTO-GENERATED
     source: # AUTO-GENERATED

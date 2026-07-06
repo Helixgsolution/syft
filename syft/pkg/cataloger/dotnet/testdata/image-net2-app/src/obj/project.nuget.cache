@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "dgSpecHash": "MIBdYd1Znd0=",
+  "success": true,
+  "projectFilePath": "/home/danial23/src/syft/syft/pkg/cataloger/dotnet/testdata/image-net2-app/src/helloworld.csproj",
+  "expectedPackageFiles": [
+    "/home/danial23/.nuget/packages/microsoft.netcore.app/2.2.0/microsoft.netcore.app.2.2.0.nupkg.sha512",
+    "/home/danial23/.nuget/packages/microsoft.netcore.dotnetapphost/2.2.0/microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
+    "/home/danial23/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.2.0/microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
+    "/home/danial23/.nuget/packages/microsoft.netcore.dotnethostresolver/2.2.0/microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
+    "/home/danial23/.nuget/packages/microsoft.netcore.platforms/2.2.0/microsoft.netcore.platforms.2.2.0.nupkg.sha512",
+    "/home/danial23/.nuget/packages/microsoft.netcore.targets/2.0.0/microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "/home/danial23/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/home/danial23/.nuget/packages/serilog/2.10.0/serilog.2.10.0.nupkg.sha512",
+    "/home/danial23/.nuget/packages/serilog.sinks.console/4.0.1/serilog.sinks.console.4.0.1.nupkg.sha512",
+    "/home/danial23/.nuget/packages/stylecop.analyzers/1.1.118/stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.2.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-2xjx-v99w-gqf3",
+      "projectPath": "/home/danial23/src/syft/syft/pkg/cataloger/dotnet/testdata/image-net2-app/src/helloworld.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/danial23/src/syft/syft/pkg/cataloger/dotnet/testdata/image-net2-app/src/helloworld.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "netcoreapp2.2"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.2.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-6px8-22w5-w334",
+      "projectPath": "/home/danial23/src/syft/syft/pkg/cataloger/dotnet/testdata/image-net2-app/src/helloworld.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/danial23/src/syft/syft/pkg/cataloger/dotnet/testdata/image-net2-app/src/helloworld.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "netcoreapp2.2"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.2.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-x5qj-9vmx-7g6g",
+      "projectPath": "/home/danial23/src/syft/syft/pkg/cataloger/dotnet/testdata/image-net2-app/src/helloworld.csproj",
+      "warningLevel": 1,
+      "filePath": "/home/danial23/src/syft/syft/pkg/cataloger/dotnet/testdata/image-net2-app/src/helloworld.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "netcoreapp2.2"
+      ]
+    }
+  ]
+}

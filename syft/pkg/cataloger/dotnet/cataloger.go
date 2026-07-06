@@ -31,3 +31,9 @@ func NewDotnetPackagesLockCataloger() pkg.Cataloger {
 	return generic.NewCataloger("dotnet-packages-lock-cataloger").
 		WithParserByGlobs(parseDotnetPackagesLock, "**/packages.lock.json")
 }
+
+// NewDotnetLibmanCataloger returns a cataloger based on libman.json files.
+func NewDotnetLibmanCataloger() pkg.Cataloger {
+	return generic.NewCataloger("dotnet-libman-cataloger").
+		WithParserByGlobs(parseLibmanJSON, "**/libman.json")
+}

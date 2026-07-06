@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = helloworld
+build_property.ProjectDir = /home/danial23/src/syft/syft/pkg/cataloger/dotnet/testdata/image-net2-app/src/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

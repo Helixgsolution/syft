@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = hello
+build_property.ProjectDir = /home/danial23/src/syft/syft/pkg/cataloger/internal/dotnet/pe/testdata/image-dotnet31-single-file/src/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
